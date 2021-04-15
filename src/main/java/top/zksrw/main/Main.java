@@ -14,14 +14,14 @@ public class Main {
     public String ipAddressUrl;
 
 
-//    @Value("${address.hosts}")
-//    private List<String> hosts;
+    @Value("${address.hosts}")
+    private List<String> hosts;
 
     public void test(){
         System.out.println(ipAddressUrl);
-        /*for (String hosts : hosts) {
+        for (String hosts : hosts) {
             System.out.println(hosts);
-        }*/
+        }
     }
 
 }
